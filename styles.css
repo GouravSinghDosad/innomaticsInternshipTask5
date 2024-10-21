@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(55, 55, 55, 0.1);
+    color: rgba(35, 33, 33, 0.1);
+}
+
+.nav-logo-new{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+.nav-link {
+    color: #717171 !important;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #007bff !important;
+}
+.features .card {
+    border: none;
+    border-radius: 10px;
+}
+.features .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.features .card-title {
+    font-weight: bold;
+}
+.features .btn-primary {
+    border-radius: 20px;
+}
+footer {
+    background-color: #343a40;
+}
+.social-logo {
+    width: 80px;
+    margin: 0 10px;
+    /* filter: invert(1); */
+    transition: filter 0.3s ease;
+}
+.social-logo:hover {
+    filter: invert(0.5);
+}
